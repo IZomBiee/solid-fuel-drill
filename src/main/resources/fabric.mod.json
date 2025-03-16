@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "solid-fuel-drill",
+	"version": "${version}",
+	"name": "Solid Fuel Drill",
+	"description": "This is a mod that adds solid fuel drill that can dig 3x3 tunnels using coal or other fuel.",
+	"authors": [
+		"izombiee"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/solid-fuel-drill/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"izombiee.solidfueldrill.SolidFuelDrill"
+		],
+		"fabric-datagen": [
+			"izombiee.solidfueldrill.SolidFuelDrillDataGenerator"
+		]
+	},
+	"mixins": [
+		"solid-fuel-drill.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
