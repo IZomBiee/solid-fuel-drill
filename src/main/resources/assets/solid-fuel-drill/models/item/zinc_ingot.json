@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "solid-fuel-drill:item/zinc_ingot"
+  }
+}

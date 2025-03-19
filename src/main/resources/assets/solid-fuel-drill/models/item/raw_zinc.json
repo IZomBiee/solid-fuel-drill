@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "solid-fuel-drill:item/suspicious_substance"
+    "layer0": "solid-fuel-drill:item/raw_zinc"
   }
 }
