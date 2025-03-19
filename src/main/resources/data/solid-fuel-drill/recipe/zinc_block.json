@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "solid-fuel-drill:zinc_ingot"
+  },
+  "result": {
+    "id": "solid-fuel-drill:zinc_block",
+    "count": 1
+  }
+}

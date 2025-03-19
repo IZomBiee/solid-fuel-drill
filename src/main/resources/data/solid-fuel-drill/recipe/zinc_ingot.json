@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "solid-fuel-drill:zinc_block"
+  ],
+  "result": {
+    "id": "solid-fuel-drill:zinc_ingot",
+    "count": 9
+  }
+}

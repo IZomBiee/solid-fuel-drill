@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "solid-fuel-drill:steel_ingot"
+  },
+  "result": {
+    "id": "solid-fuel-drill:steel_block",
+    "count": 1
+  }
+}
