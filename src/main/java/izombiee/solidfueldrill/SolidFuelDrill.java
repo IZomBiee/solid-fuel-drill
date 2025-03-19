@@ -1,5 +1,6 @@
 package izombiee.solidfueldrill;
 
+import izombiee.solidfueldrill.blocks.ModBlocks;
 import izombiee.solidfueldrill.items.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class SolidFuelDrill implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.initialize();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
