@@ -16,6 +16,8 @@ public class ModItems {
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", Item::new, new Item.Settings());
     public static final Item RAW_ZINC = registerItem("raw_zinc", Item::new, new Item.Settings());
     public static final Item STEEL_INGOT = registerItem("steel_ingot", Item::new, new Item.Settings());
+    public static final Item IRON_DRILL = new IronDrill();
+
 
     public static Item registerItem(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(SolidFuelDrill.MOD_ID, name));

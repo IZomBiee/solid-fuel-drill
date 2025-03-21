@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "solid-fuel-drill:item/iron_drill"
+  }
+}

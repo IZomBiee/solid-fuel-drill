@@ -4,5 +4,6 @@
   "item.solid-fuel-drill.zinc_ingot": "Zinc Ingot",
   "item.solid-fuel-drill.zinc_ore": "Zinc Ore",
   "item.solid-fuel-drill.zinc_block": "Zinc Block",
-  "item.solid-fuel-drill.steel_block": "Steel Block"
+  "item.solid-fuel-drill.steel_block": "Steel Block",
+  "item.solid-fuel-drill.iron_drill": "Iron Drill"
 }
